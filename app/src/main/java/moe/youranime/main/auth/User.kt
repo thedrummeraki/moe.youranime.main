@@ -55,7 +55,20 @@ class User(
         }
     }
 
+    object Singleton {
+        private var currentUser: User? = null
+
+        fun setCurrentUser(currentUser: User) = apply { this.currentUser = currentUser }
+        fun getCurrentUser(): User? {
+            return currentUser;
+        }
+    }
+
     companion object {
+        fun hasCurrentUser(): Boolean {
+            return Singleton.getCurrentUser() != null
+        }
+
         fun fromGraphql(fetchedUser: SigninUserMutation.User?): User? {
             if (fetchedUser == null) { return null }
 
