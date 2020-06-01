@@ -1,0 +1,16 @@
+mutation SigninUser($username: String!, $password: String!) {
+    signinUser(input: {input: {username: $username, password: $password}}) {
+        token
+        user {
+            active
+            createdAt
+            email
+            hex
+            id
+            limited
+            name
+            updatedAt
+            username
+        }
+    }
+}

@@ -1,0 +1,23 @@
+query AllShows {
+    allShows {
+        bannerUrl
+        description
+        descriptionRecord {
+            en
+            fr
+            jp
+        }
+        dubbed
+        id
+        published
+        seasonsCount
+        showType
+        subbed
+        title
+        titleRecord {
+            en
+            fr
+            jp
+        }
+    }
+}

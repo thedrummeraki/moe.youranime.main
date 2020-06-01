@@ -1,0 +1,13 @@
+query CheckToken {
+    currentUser {
+        active
+        createdAt
+        email
+        hex
+        id
+        limited
+        name
+        updatedAt
+        username
+    }
+}

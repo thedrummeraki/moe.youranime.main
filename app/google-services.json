@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "389354141915",
+    "firebase_url": "https://listify-mlms.firebaseio.com",
+    "project_id": "listify-mlms",
+    "storage_bucket": "listify-mlms.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:389354141915:android:f27126017bd2178b71b4fe",
+        "android_client_info": {
+          "package_name": "moe.youranime.main"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "389354141915-rq76acncmgqspgnob250a0jqaklhvsoi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpWu2pB8nL7bdXkfSWbVZdPS4YRif2M-4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "389354141915-rq76acncmgqspgnob250a0jqaklhvsoi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
